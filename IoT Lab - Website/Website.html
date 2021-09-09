@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo1">
+            <img src="Pics/Smartcity.png" alt="">
+        </div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </header>
+   
+    <section class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slide first">
+                <img src="Pics/slide1.jpg" alt="">
+                <div class="content">
+                    <h1>Smart City<br>for Life</h1>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="Pics/silde2.jpg" alt="">
+                <div class="content2">
+                    <h1>Visit Our City</h1>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="Pics/Slide3-1.jpg" alt="">
+                <div class="content3">
+                    <h1>All City in<br>Your Hand</h1>
+                </div>
+            </div>
+            <div class="navigation=auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn2"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="title reveal">
+          <h2 class="section-title">Air Quality</h2>
+          <p>Air, not food or water, is the first element required for us to begin and sustain life, as the average adult breathes up to 10,000 liters of air per day.
+              (According to the US National Library of Medicine)</p>
+        </div>
+        <div class="content4">
+          <div class="card reveal">
+            <div class="service-icon">
+              <img class="icon" src="Pics/car-white.png" alt="">
+            </div>
+            <div class="info">
+              <h3>CO2</h3>
+              <h4 id="co2"></h4>
+              <p>(PPB IN 8H AVG)</p>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="service-icon">
+              <img class="icon" src="Pics/pollution-white.png" alt="">
+            </div>
+            <div class="info">
+              <h3>SO2</h3>
+              <h4 id="so2"></h4>
+              <p>(PPB IN 1H AVG)</p>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="service-icon">
+              <img class="icon" src="Pics/water-pollution-white.png" alt="">
+            </div>
+            <div class="info">
+              <h3>NO2</h3>
+              <h4 id="no2"></h4>
+              <p>(PPB IN 1H AVG)</p>
+            </div>
+          </div>
+        </div>
+    </section>
+  <div> 
+    <img class="img1" src="Pics/pexels-aleksandar-pasaric-325185.png" alt="">
+  </div>
+  <section class="control" id="control">
+    <div class="title reveal">
+      <h2 class="section-title1">City in Your Hand</h2>
+      <p>Everything with a touch!</p>
+    </div>
+    <div class="content5">
+      <div class="card reveal">
+        <div class="control-icon">
+          <img class="cicon" src="Pics/street-light-off.png" id="light" alt="">
+        </div>
+        <div class="toggleinfo">
+          <h3>Street lights</h3>
+          <h5>Turn on the street light in the city</h5>
+          <button type="button" id="btn1" >Off</button>
+          <button type="button" id="btn2" >On</button><br><br>
+        </div>
+      </div>
+      <div class="card reveal">
+        <div class="control-icon">
+          <img class="cicon" src="Pics/auto-watering-off.png" id="water" alt="">
+        </div>
+        <div class="toggleinfo">
+          <h3>Automatic watering</h3>
+          <h5>Turn on the automatic watering system in city's park</h5>
+          <button type="button" id="btn3" >Off</button>
+          <button type="button" id="btn4" >On</button><br><br>
+        </div>
+      </div>
+      <div class="card reveal">
+        <div class="control-icon">
+          <img class="cicon" src="Pics/megaphone-off.png" id="speaker" alt="">
+        </div>
+        <div class="toggleinfo">
+          <h3>Announcement</h3>
+          <h5>Turn on the city's loudspeaker system</h5>
+          <button type="button" id="btn5" >Off</button>
+          <button type="button" id="btn6" >On</button><br><br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="content6">
+      <div class="column col-left reveal">
+        <div class="img-city">
+          <img src="Pics/cityinmid.jpg" alt="">
+        </div>
+      </div>
+      <div class="column col-right reveal">
+        <h2 class="content-title">What benefits will a smart city offer us?</h2>
+        <p class="paragraph-text">Smart cities offer better use of space, less traffic, cleaner air, and more efficient civic services, all of which increases quality of life. What’s more, smart cities provide more career and economic opportunities as well as stronger links with the community.</p>
+        <a href="#" class="bt">See More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+      <div class="contact-form reveal">
+        <img class="img3" src="Pics/hcmc-skyline.png" alt="">
+        <h3>Stay Connected</h3>
+        <div class="input-box">
+          <input type="text" name="" value="" placeholder="Bella Carberry">
+        </div>
+        <div class="input-box">
+          <input type="text" name="" value="" placeholder="bellacarberry1802@gmail.com">
+        </div>
+        <div class="input-box">
+          <input type="submit" class="send-btn" name="" value="Sign up"/>
+        </div>
+      </div>
+  </section>
+  <footer class="footer">
+    <div class="contactus">
+      <span>Contact Us</span>
+      <img class="img4" src="Pics/Smartcity.png" alt="">
+      <div class="contact-logo">
+        <a href="#">
+          <img class="img5" src="Pics/facebook-3-64.png" alt="">
+        </a>
+        <a href="#">
+          <img class="img5" src="Pics/instagram-64.png" alt="">
+        </a>
+        <a href="#">
+          <img class="img5" src="Pics/twitter-xxl.png" alt="">
+        </a>
+      </div>
+    </div>
+    <section class="maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118370.85594376779!2d106.7163738133273!3d10.807598415352015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1631122569899!5m2!1svi!2s" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <span class="citymap">City maps:</span>
+    </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyATWZB1Szs81NJtC_mSWg1WrqvbOz4scuM",
+      authDomain: "website-iot-837c0.firebaseapp.com",
+      databaseURL: "https://website-iot-837c0-default-rtdb.firebaseio.com",
+      projectId: "website-iot-837c0",
+      storageBucket: "website-iot-837c0.appspot.com",
+      messagingSenderId: "717804286220",
+      appId: "1:717804286220:web:338ba50f6a139e299f5929"
+      };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    var CO2 = document.getElementById('co2');
+    var dbRef = firebase.database().ref().child('co2');
+    dbRef.on('value', snap => co2.innerText = snap.val())
+
+    var so2 = document.getElementById('so2');
+    var dbRef = firebase.database().ref().child('so2');
+    dbRef.on('value', snap => so2.innerText = snap.val());
+
+    var NO2 = document.getElementById('no2');
+    var dbRef = firebase.database().ref().child('no2');
+    dbRef.on('value', snap => no2.innerText = snap.val());
+  </script>
+  <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio'+counter).checked = true;
+        counter ++;
+        if(counter >3){
+            counter = 1;
+        }
+    }, 5000);
+    </script>
+    <script src="function.js"></script>
+</body>
+</html>
